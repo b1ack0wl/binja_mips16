@@ -18,4 +18,8 @@
 
 * Intro to Architecture Plugin development - https://binary.ninja/2020/01/09/guide-to-architecture-plugins-part1.html
 
--0wl
+
+## Contributors
+
+* [b1ack0wl](https://github.com/b1ack0wl/)
+* [netspooky](https://github.com/netspooky/)
