@@ -131,7 +131,7 @@ class MIPSEL16E(Architecture):
   def get_instruction_text(self, data, addr):
     result = []
     insn = self.disassemble(data)
-    print(f"[get_instruction_text] addr: 0x{addr:08X}, insn: {insn}")
+    #print(f"[get_instruction_text] addr: 0x{addr:08X}, insn: {insn}")
     result.append(InstructionTextToken(InstructionTextTokenType.InstructionToken, insn['insn']))
     # Express Operands
     if len(insn.get("args")) > 0:
